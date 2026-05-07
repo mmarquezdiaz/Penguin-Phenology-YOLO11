@@ -6,7 +6,7 @@ Este repositorio contiene el proceso secuencial previo a la obtención de los mo
 Con la herramienta "labelimg" se realizó el etiquetado de imágenes en formato YOLO.
 Las etiquetas de interés son pingüino adulto y pollo, sin embargo, en varias de las imágenes para etiquetar aparecian, personas, mamíferos como lobos y focas y otras aves como petreles. Por lo tanto, fue necesario definir las clases person, mammal and bird (además de penguin_adult y penguin_chick).
 
-![Etiquetado labelIMG]([https://github.com/user-attachments/assets/6079a50a-3b35-447d-a47e-f67d5b62a757" /])
+![Etiquetado labelImg](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/af76677bebd9db3c85ff9e9189864f85455c709c/pre-process/Captura%20de%20pantalla%202026-05-07%20111003.png)
 
 ### Ambiente de trabajo
 Una vez instalado python se procedió a instalar Jupyter notebooks en la consola del cmd, debido a que permite el análisis interactivo y seleccion de ambiente de trabajo.
