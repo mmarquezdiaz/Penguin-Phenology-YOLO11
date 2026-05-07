@@ -98,4 +98,4 @@ for image_path in image_paths:
 
 print("Proceso completado.")
 ```
-
+Este procesamiento se llevó a cabo en un Windows 11 pro i5 y 8GB de RAM.
