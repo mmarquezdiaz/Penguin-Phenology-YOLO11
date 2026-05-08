@@ -14,24 +14,24 @@ Windows 11 Pro
 
 Intel i5, 8 GB RAM
 
-text
+**Salida**: 7803 anotaciones de 636 imágenes
 
 ### 2. **Entrenamiento** (NLHPC - Guacolda)
 Cluster: NVIDIA V100 (1 nodo, 9 CPU)
 
 Data augmentation personalizado
 
-text
+**Salida**: 9 modelos personalizados para recuento de pingüinos.
 
 ### 3. **Evaluación** (84.000 imágenes - Servidor INACH)
-```bash
+
 Hardware:
 -  GPU: MGA G200e 64 bits
 -  CPU: 2x Intel XEON 4114 (20 cores, 40 threads)
 -  RAM: 240 GB DDR4 2666 MHz
 -  Storage: 4 TB RAID 5 (SAS 12 Gbps)
 -  OS: Ubuntu 20.04
-```
+
 
 **Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen.
 
