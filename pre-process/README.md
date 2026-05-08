@@ -1,4 +1,4 @@
-# Pre-procesamiento
+#  🔄Pre-procesamiento
 
 Este repositorio contiene el proceso secuencial previo a la obtención de los modelos personalizados con los que se pueden reproducir los resultados presentados en el artículo: Automated estimation of interannual variation in penguin colony phenologies Antarctic Peninsula using a deep learning-based YOLO11 model customized for camera trap imagery.
 
