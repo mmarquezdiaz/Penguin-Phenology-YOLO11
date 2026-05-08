@@ -71,7 +71,7 @@ batch=0.8, seed=random_seed, hsv_h=0.02,hsv_s=0.8,hsv_v=0.4, scale=0.6, fliplr=0
 mixup=0.2,copy_paste=0.1, copy_paste_mode='flip',auto_augment='randaugment',device=0)
 ```
 
-Realicé tantos archivos .job y .py como entrenamientos diferentes se realizaron. 
+Realicé tantos archivos '.job' y '.py' como entrenamientos diferentes se realizaron. 
 
 Los resultados los copié en mi computador de escritorio a través filezilla para post-procesamiento.
 
