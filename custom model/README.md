@@ -73,7 +73,9 @@ mixup=0.2,copy_paste=0.1, copy_paste_mode='flip',auto_augment='randaugment',devi
 
 Realicé tantos archivos .job y .py como entrenamientos diferentes se realizaron. 
 
-Los resultados los copié en mi computador de escritorio a través filezilla y luego fueron usados para validar la evaluación del modelo.
+Los resultados los copié en mi computador de escritorio a través filezilla para post-procesamiento.
+
+ luego fueron usados para validar la evaluación del modelo.
 
 Los modelos utilizados para evaluar las fotografías fueron:
 | Modelo  | Clase objetivo     |      |
