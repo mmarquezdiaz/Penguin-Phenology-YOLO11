@@ -47,7 +47,7 @@ Hardware:
 ---
 
 **🧪 Reproducir análisis**: [Jupyter Notebook](notebooks/phenology_analysis.ipynb)  
-**📈 Datos procesados**: [Carpeta datasets](data/processed/)  
+**📈 Modelos personalizados**: [Carpeta custom model](data/processed/)  
 **🔬 Paper**: [Enlace al artículo](link_al_paper.pdf)
 
 
