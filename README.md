@@ -5,11 +5,7 @@ En este repositorio se encuentra el proceso secuencial para la obtención de los
 **Objetivo**: Estimar la variación interanual de pingüinos (adultos y polluelos) desde el campo de visión de 8 cámaras trampa a través de un sistema de visión artificial, para ello se personalizó el modelo YOLO11 [![YOLO11](https://img.shields.io/badge/Modelo-YOLO11-blue)](https://github.com/ultralytics/ultralytics)
 
 ## Modelos personalizados utilizados
-
-| Modelo  | Clase objetivo     |      |
-|---------|--------------------|-------------|
-| Train15 | Pingüinos **adultos** |  |
-| Train13 | Pingüinos **polluelos** |  |
+Se utilizaron 1717 imágenes de cámaras trampa seleccionadas al azar para realizar un etiquetado manual y evaluar el desempeño de los 9 modelos personalizados entrenados y elegir los más adecuados para la evaluación sobre el set completo de imágenes.
 
 ## Pipeline técnico
 
@@ -27,7 +23,7 @@ Data augmentation personalizado
 
 text
 
-### 3. **Inferencia** (84.000 imágenes - Servidor INACH)
+### 3. **Evaluación** (84.000 imágenes - Servidor INACH)
 ```bash
 Hardware:
 -  GPU: MGA G200e 64 bits
