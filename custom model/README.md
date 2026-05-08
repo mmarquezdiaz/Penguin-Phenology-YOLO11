@@ -75,6 +75,13 @@ Realicé tantos archivos .job y .py como entrenamientos diferentes se realizaron
 
 Los resultados los copié en mi computador de escritorio a través filezilla y luego fueron usados para validar la evaluación del modelo.
 
+Los modelos utilizados para evaluar las fotografías fueron:
+| Modelo  | Clase objetivo     |      |
+|---------|--------------------|-------------|
+| Train15 | Pingüinos **adultos** |  |
+| Train13 | Pingüinos **polluelos** |  |
+
+[Carpeta custom model](data/processed/)  
 
 
 
