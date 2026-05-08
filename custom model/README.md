@@ -6,7 +6,7 @@ En este trabajo con el mismo set de datos de entrenamiento y validación se real
 
 Una vez que se tiene cuenta y clave de acceso al supercomputador se pueden copiar los datos (imágenes, etiquetas y scripts) en la carpeta/ambiente de trabajo, yo lo hice a través de FileZilla.
 
-Luego a través de la consola de Windows powershell, se creó un acceso remoto al servidor allí se deben enviar las tareas, con la siguiente linea de comando:
+Luego a través de la consola de Windows powershell, se creó un acceso remoto al servidor, allí se creo un entorno virtual de python para más tarde enviar las tareas, con la siguiente linea de comando:
 ```bash
 sbatch main_script.sh
 ```
