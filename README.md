@@ -4,7 +4,7 @@ En este repositorio se encuentra el proceso secuencial para la obtención de los
 
 **Objetivo**: Estimar la variación interanual de pingüinos (adultos y polluelos) desde el campo de visión de 8 cámaras trampa a través de un sistema de visión artificial, para ello se personalizó el modelo YOLO11 [![YOLO11](https://img.shields.io/badge/Modelo-YOLO11-blue)](https://github.com/ultralytics/ultralytics)
 
-## Modelos utilizados
+## Modelos personalizados utilizados
 
 | Modelo  | Clase objetivo     |      |
 |---------|--------------------|-------------|
@@ -47,7 +47,7 @@ Hardware:
 ---
 
 **🧪 Reproducir análisis**: [Jupyter Notebook](notebooks/phenology_analysis.ipynb)  
-**📈 Modelos personalizados**: [Carpeta custom model](data/processed/)  
+**📈 Modelos personalizados**: [Carpeta custom model](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/300c26b9a41ce238336b60105ad9e4e20471aa1e/custom%20model/custom%20models.zip)  
 **🔬 Paper**: [Enlace al artículo](link_al_paper.pdf)
 
 
