@@ -42,7 +42,7 @@ Hardware:
 
 ## 📊 Resultados
 
-Los modelos logran recuento automatizado con precisión >95% en condiciones reales de cámaras trampa antárticas.
+.
 
 ---
 
