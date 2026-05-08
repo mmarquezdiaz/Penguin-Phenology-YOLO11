@@ -1,9 +1,22 @@
-# Post-process
-El post-procesamiento constó de dos partes
+## 🔍 Post-procesamiento
 
--la validación con algunos datos de evaluación 
--la evaluación de los modelos sobre 84000 imagenes y resultados en la fenología de los pinguinos.
+El post-procesamiento se realizó en **dos etapas**:
 
+### 1. **Validación cruzada** (con imágenes de evaluación)
+1.700 imágenes etiquetadas manualmente
+
+Comparación vs. etiquetado de 9 modelos personalizados YOLO11
+
+Métricas: mAP@0.5, Precision, Recall
+
+### 2. **Evaluación** (Dataset completo)
+```bash
+-  84.000 imágenes de cámaras trampa (8 cámaras)
+-  Modelos Train13 (polluelos) + Train15 (adultos)
+-  Resultados: Series temporales interanuales
+```
+
+**🧪 Notebook de post-procesamiento**: [post_process.ipynb](notebooks/post_process.ipynb)
 
 
 
