@@ -1,4 +1,4 @@
-# Penguin-Phenology-YOLO11
+# Penguin-Phenology-YOLO11 🐧❄️
 
 En este repositorio se encuentra el proceso secuencial para la obtención de los modelos personalizados con los que se pueden reproducir los resultados presentados en el artículo *[Automated estimation of interannual variation in penguin colony phenologies Antarctic Peninsula using a deep learning-based YOLO11 model customized for camera trap imagery](link_al_articulo)*.
 
@@ -37,7 +37,7 @@ Hardware:
 
 
 ## 📊 Resultados
-
+🐧❄️
 .
 
 ---
