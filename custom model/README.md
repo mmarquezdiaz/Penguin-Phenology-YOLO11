@@ -75,8 +75,6 @@ Realicé tantos archivos .job y .py como entrenamientos diferentes se realizaron
 
 Los resultados los copié en mi computador de escritorio a través filezilla para post-procesamiento.
 
- luego fueron usados para validar la evaluación del modelo.
-
 Los modelos utilizados para evaluar las fotografías fueron:
 | Modelo  | Clase objetivo     |      |
 |---------|--------------------|-------------|
