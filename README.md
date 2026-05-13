@@ -36,13 +36,12 @@ Hardware:
 **Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen.
 
 
-## 📊 Resultados
-🐧❄️
-.
+## 📊 Resultados 🐧❄️
+El recuento por modelo alcanzó un R² de aproximadamente 0,9 en la regresión lineal comparada con el recuento manual, lo que reveló diferencias fenologicas entre colonias y especies de Pygocelis.🐧
 
 ---
 
-**🧪 Reproducir análisis**: [Jupyter Notebook](notebooks/phenology_analysis.ipynb)  
+**🧪 Resultado**: [Zenodo](notebooks/phenology_analysis.ipynb)  
 **📈 Modelos personalizados**: [Carpeta custom model](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/300c26b9a41ce238336b60105ad9e4e20471aa1e/custom%20model/custom%20models.zip)  
 **🔬 Paper**: [Enlace al artículo](link_al_paper.pdf)
 
