@@ -9,12 +9,12 @@ Se utilizaron 1717 imágenes de cámaras trampa seleccionadas al azar para reali
 
 ## Pipeline técnico
 
-### 1. **Pre-procesamiento** (Local)
+### 1. **Pre-procesamiento y Validación cruzada** (Local)
 Windows 11 Pro
 
 Intel i5, 8 GB RAM
 
-**Salida**: 7803 anotaciones de 636 imágenes
+**Salida**: 7803 anotaciones de 636 imágenes(pre-procesamiento) y 1717 imágenes (validación cruzada)
 
 ### 2. **Entrenamiento** (NLHPC - Guacolda)
 Cluster: NVIDIA V100 (1 nodo, 9 CPU)
@@ -23,8 +23,8 @@ Data augmentation personalizado
 
 **Salida**: 9 modelos personalizados para recuento de pingüinos.
 
-### 3. **Evaluación** (89.000 imágenes - Servidor INACH)
-
+### 3. **Validación cruzada (1717 imágenes) y Evaluación** (89.000 imágenes)
+####Servidor INACH
 Hardware:
 -  GPU: MGA G200e 64 bits
 -  CPU: 2x Intel XEON 4114 (20 cores, 40 threads)
@@ -35,13 +35,13 @@ Hardware:
 
 **Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen.
 
+**🧪 Resultado**: [Automated Penguin Counting: Antarctic Peninsula (2022–2026)](https://zenodo.org/records/20184303?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMWVhNzQ4LTE0NzctNGU2NS1iMjA5LWRhZmU2ZTY5NGJhMSIsImRhdGEiOnt9LCJyYW5kb20iOiJiYjY0MWExYTVjMTAxZjA1MDAyMzVhMGE2YWViZTk2MiJ9.mgWf0jtg0wnq9UID8P9e9CRHT9S5WqMLgTHu0_VYden4A95kiTZ9rYozYtCyvb8iDlZlq5fb1Btfa1muwRjv5g) 
 
 ## 📊 Resultados 🐧❄️
 El recuento por modelo alcanzó un R² de aproximadamente 0,9 en la regresión lineal comparada con el recuento manual, lo que reveló diferencias fenologicas entre colonias y especies de Pygocelis.🐧
 
 ---
 
-**🧪 Resultado**: [Zenodo](https://zenodo.org/records/20184303?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMWVhNzQ4LTE0NzctNGU2NS1iMjA5LWRhZmU2ZTY5NGJhMSIsImRhdGEiOnt9LCJyYW5kb20iOiJiYjY0MWExYTVjMTAxZjA1MDAyMzVhMGE2YWViZTk2MiJ9.mgWf0jtg0wnq9UID8P9e9CRHT9S5WqMLgTHu0_VYden4A95kiTZ9rYozYtCyvb8iDlZlq5fb1Btfa1muwRjv5g)  
 **📈 Modelos personalizados**: [Carpeta custom model](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/300c26b9a41ce238336b60105ad9e4e20471aa1e/custom%20model/custom%20models.zip)  
 **🔬 Paper**: [Enlace al artículo](link_al_paper.pdf)
 
