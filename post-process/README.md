@@ -6,7 +6,7 @@ El post-procesamiento se realizó en **dos etapas**:
 ✍️ ~1.700 imágenes etiquetadas manualmente vs. etiquetado de 9 modelos personalizados YOLO11
 
 Métricas: R^2
-![Regresion lineal](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/af76677bebd9db3c85ff9e9189864f85455c709c/pre-process/Captura%20de%20pantalla%202026-05-07%20111003.png)
+![Regresion lineal]([https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/7cdbc353adf460a62ce491daa3ecc6f8a36983b6/post-process/rl_padult.png])
 
 ### 2. **Evaluación** (Dataset completo)
 ```bash
