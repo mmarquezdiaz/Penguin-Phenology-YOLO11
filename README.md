@@ -23,7 +23,7 @@ Data augmentation personalizado
 
 **Salida**: 9 modelos personalizados para recuento de pingüinos.
 
-### 3. **Evaluación** (84.000 imágenes - Servidor INACH)
+### 3. **Evaluación** (89.000 imágenes - Servidor INACH)
 
 Hardware:
 -  GPU: MGA G200e 64 bits
