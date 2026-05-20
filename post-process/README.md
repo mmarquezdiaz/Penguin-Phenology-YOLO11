@@ -5,7 +5,8 @@ El post-procesamiento se realizó en **dos etapas**:
 ### 1. **Validación cruzada** (con imágenes de evaluación)
 ✍️ ~1.700 imágenes etiquetadas manualmente vs. etiquetado de 9 modelos personalizados YOLO11
 
-<img src="https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/7cdbc353adf460a62ce491daa3ecc6f8a36983b6/post-process/temporal_plots.png" width="400">
+<img src="https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/0eb83567e21afc50c22d6b163ac56aa46cbc3be0/post-process/counts.png" width="600">
+
 
 ### 2. **Evaluación** (Dataset completo)
 
