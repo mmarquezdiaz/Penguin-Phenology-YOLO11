@@ -4,7 +4,12 @@ El post-procesamiento se realizó en **dos etapas**:
 
 ### 1. **Validación cruzada** (con imágenes de evaluación)
 ✍️ ~1.700 imágenes etiquetadas manualmente vs. etiquetado de 9 modelos personalizados YOLO11
+```python
+from ultralytics import YOLO
 
+model = YOLO(r"C:\Users\Magdalena Marquez\Desktop\ia_conteo_aves\resultados\nc5\archivos\runs\detect\train2\weights\best.pt")
+metrics = model.val(data=r"C:\Users\Magdalena Marquez\Desktop\ia_conteo_aves\validacion\pinguino.yaml")
+```
 <img src="https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/0eb83567e21afc50c22d6b163ac56aa46cbc3be0/post-process/counts.png" width="600">
 
 
