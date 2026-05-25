@@ -42,7 +42,7 @@ El recuento por modelo de Train15 reveló diferencias fenológicas entre colonia
 
 ---
 
-**📈 Modelo personalizado**: Train15 [Carpeta custom model](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/300c26b9a41ce238336b60105ad9e4e20471aa1e/custom%20model/custom%20models.zip)  
+**📈 Modelo personalizado**:[Train15](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/7d4ab53e12f910e97e9432e90f04a0db458b4e83/custom%20model/train15.zip)  
 **🔬 Paper**: in progress
 
 
