@@ -78,10 +78,10 @@ Los resultados los copié en mi computador de escritorio a través filezilla par
 Los modelos utilizados para evaluar las fotografías fueron:
 | Modelo  | Clase objetivo     |      |
 |---------|--------------------|-------------|
-| Train15 | Pingüinos **adultos** |  |
-| Train13 | Pingüinos **polluelos** |  |
+| Train15 | Pingüinos **adultos** y **pollos** |  |
 
-[Carpeta custom model](data/processed/)  
+
+[Carpeta custom model](train5.zip)  
 
 
 
