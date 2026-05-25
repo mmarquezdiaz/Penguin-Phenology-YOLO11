@@ -81,7 +81,7 @@ Los modelos utilizados para evaluar las fotografías fueron:
 | Train15 | Pingüinos **adultos** y **pollos** |  |
 
 
-[Carpeta custom model](train5.zip)  
+[Carpeta custom model](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/bd8fdf9775103b587a5b68880ba5a12c125f693d/custom%20model/train15.zip)  
 
 
 
