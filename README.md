@@ -35,7 +35,7 @@ Hardware:
 
 **Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen.
 
-**🧪 Resultado**: [Automated Penguin Counting: Antarctic Peninsula (2022–2026)](https://zenodo.org/records/20184303?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMWVhNzQ4LTE0NzctNGU2NS1iMjA5LWRhZmU2ZTY5NGJhMSIsImRhdGEiOnt9LCJyYW5kb20iOiJiYjY0MWExYTVjMTAxZjA1MDAyMzVhMGE2YWViZTk2MiJ9.mgWf0jtg0wnq9UID8P9e9CRHT9S5WqMLgTHu0_VYden4A95kiTZ9rYozYtCyvb8iDlZlq5fb1Btfa1muwRjv5g) 
+**🧪 Resultado**: [Automated Penguin Counting: Antarctic Peninsula (2022–2026)](https://doi.org/10.5281/zenodo.20184303) 
 
 ## 📊 Resultados 🐧❄️
 El recuento por modelo de Train15 reveló diferencias fenológicas entre colonias y especies de Pygocelis.🐧
