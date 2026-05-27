@@ -1,6 +1,6 @@
 # Penguin-Phenology-YOLO11 🐧❄️
 
-En este repositorio se encuentra el proceso secuencial para la obtención de los modelos personalizados con los que se pueden reproducir los resultados presentados en el artículo *[Automated estimation of interannual variation in penguin colony phenologies on the Antarctic Peninsula using a deep learning-based YOLO11 model customized for camera trap imagery](link_al_articulo)*.
+En este repositorio se encuentra el proceso secuencial para la obtención de los modelos personalizados con los que se pueden reproducir los resultados presentados en el artículo *[Automated monitoring of Antarctic penguin colonies phenology using a customized YOLO11 model and camera trap imagery](link_al_articulo)*.
 
 **Objetivo**: Estimar la variación interanual de pingüinos (adultos y polluelos) desde el campo de visión de 8 cámaras trampa a través de un sistema de visión artificial, para ello se personalizó el modelo YOLO11 [![YOLO11](https://img.shields.io/badge/Modelo-YOLO11-blue)](https://github.com/ultralytics/ultralytics)
 
