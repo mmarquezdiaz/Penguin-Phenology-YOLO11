@@ -2,7 +2,7 @@
 
 El post-procesamiento se realizó en **dos etapas**:
 
-### 1. **Validación cruzada** (con imágenes de evaluación)
+### 1. **Evaluación independiente de modelos** (con imágenes de evaluación)
 ✍️ ~1.700 imágenes etiquetadas manualmente vs. etiquetado de 9 modelos personalizados YOLO11
 ```python
 from ultralytics import YOLO
@@ -29,6 +29,19 @@ Campo de visión cámaras sobre colonias de pingüino P. papua a)HP03 en Punta A
 
 **Resultado**: [Series temporales interanuales](https://zenodo.org/records/20184303?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMWVhNzQ4LTE0NzctNGU2NS1iMjA5LWRhZmU2ZTY5NGJhMSIsImRhdGEiOnt9LCJyYW5kb20iOiJiYjY0MWExYTVjMTAxZjA1MDAyMzVhMGE2YWViZTk2MiJ9.mgWf0jtg0wnq9UID8P9e9CRHT9S5WqMLgTHu0_VYden4A95kiTZ9rYozYtCyvb8iDlZlq5fb1Btfa1muwRjv5g)
 
+### 3. **Diferenciar especies de pingüinos** (subset imágenes evaluación)
+```bash
+-  📸800 imágenes (subset de imágenes de cámaras HP02 y KOP03 cámaras)
+-  Machine Learning: Ginni index dentro de Random forest para diferenciar pingüino Gentoo de Chinstrap.
+-  Resultado: Embeddings predictores más importantes para distinguir Gentoo de Chinstrap.
+```
+
+### 4. **Patrón interanual por especie en Punta Armonía** (imágenes de HP01 y HP02)
+```bash
+-  📸9976 imágenes de cámaras HP01 y HP02
+-  Random forest para diferenciar pingüino Gentoo de Chinstrap
+-  Resultado: Serie temporal interanual diferenciada por especie
+```
 
 
 
