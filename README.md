@@ -9,12 +9,12 @@ Se utilizaron 1744 imágenes de cámaras trampa seleccionadas al azar para reali
 
 ## Pipeline técnico
 
-### 1. **Pre-procesamiento y Validación cruzada** (Local)
+### 1. **Pre-procesamiento y Post-Procesamiento** (Local)
 Windows 11 Pro
 
 Intel i5, 8 GB RAM
 
-**Salida**: 7803 anotaciones de 636 imágenes(pre-procesamiento) y 1744 imágenes (validación cruzada)
+**Salida**: Set de datos etiquetados/ Gráficos 
 
 ### 2. **Entrenamiento** (NLHPC - Guacolda)
 Cluster: NVIDIA V100 (1 nodo, 9 CPU)
@@ -23,7 +23,7 @@ Data augmentation personalizado
 
 **Salida**: 9 modelos personalizados para recuento de pingüinos.
 
-### 3. **Validación cruzada (1744 imágenes) y Evaluación** (89.000 imágenes)
+### 3. **Evaluación** (90744 imágenes) y **extracción de embeddings** (10776 imágenes)
 ####Servidor INACH
 Hardware:
 -  GPU: MGA G200e 64 bits
@@ -32,10 +32,11 @@ Hardware:
 -  Storage: 4 TB RAID 5 (SAS 12 Gbps)
 -  OS: Ubuntu 20.04
 
-
-**Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen.
+**Salida**: DataFrame con fecha + conteo (adultos/polluelos) por imagen y dataframe con embeddings extraídos para cada detección
 
 **🧪 Resultado**: [Automated Penguin Counting: Antarctic Peninsula (2022–2026)](https://doi.org/10.5281/zenodo.20184303) 
+
+
 
 ## 📊 Resultados 🐧❄️
 El recuento por modelo de Train15 reveló diferencias fenológicas entre colonias y especies de Pygocelis.🐧
