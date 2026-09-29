@@ -7,18 +7,15 @@ from PIL import Image
 
 
 MODEL_PATH = (
-    "/home/bioinfo/Magdalena_data/"
-    "detecciones_mari/modelos/train15/weights/best.pt"
+    "/home/.../train15/weights/best.pt"
 )
 
 VAL_DIR = Path(
-    "/home/bioinfo/Magdalena_data/"
-    "rootia/img/ECA59/arm/CamChinstrapPeak"
+    "/home/.../Cam"
 )
 
 OUTPUT_CSV = (
-    "/home/bioinfo/Magdalena_data/RF/embed_results/"
-    "embeddings_class_id_E59chinpeak.csv"
+    "/home/.../"embeddings_class_id_E59chinpeak.csv"
 )
 
 EXTENSIONS = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".bmp"}
