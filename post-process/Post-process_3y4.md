@@ -1,11 +1,10 @@
 
 ### 3. **Diferenciar especies de pingüinos** (subset imágenes evaluación)
-```bash
--  📸800 imágenes (subset de imágenes de cámaras HP02 y KOP03 cámaras)
+-  📸 Detección de embeddings de 800 imágenes etiquetadas (subset de imágenes de cámaras HP02 y KOP03 cámaras)
 -  Machine Learning: Ginni index dentro de Random forest para diferenciar pingüino Gentoo de Chinstrap.
 -  Resultado: Embeddings predictores más importantes para distinguir Gentoo de Chinstrap.
-```
-Extracción de embeddings desde imágenes etiquetadas
+
+***Extracción de embeddings desde imágenes etiquetadas***
 ```python
 # -----------------------------
 # Configuración
@@ -97,8 +96,7 @@ df.to_csv(r"C:\Users\...\train_embeddings.csv", index=False)
 ```
 
 ### 4. **Patrón interanual por especie en Punta Armonía** (imágenes de HP01 y HP02)
-```bash
--  📸9976 imágenes de cámaras HP01 y HP02
--  Random forest para diferenciar pingüino Gentoo de Chinstrap
+-  📸Detección de embeddings sobre 9976 imágenes de cámaras HP01 y HP02 no etiquetadas. [script](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/0f6944134f016d88647309cbc17e9d2468d6ba4d/post-process/detect_embed.py)
+-  Suma TOP3 embeddings para diferenciar pingüino Gentoo de Chinstrap
 -  Resultado: Serie temporal interanual diferenciada por especie
-```
+
