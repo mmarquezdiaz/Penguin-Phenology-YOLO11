@@ -4,22 +4,19 @@ El post-procesamiento se realizó en **cuatro etapas**:
 
 ### 1. **Evaluación independiente de modelos** (con imágenes de evaluación)
 ✍️ ~1.700 imágenes etiquetadas manualmente vs. etiquetado de 9 modelos personalizados YOLO11
+Cálculo de la distancia Eucliana al punto de rendimiento ideal, con un 100 % de detecciones correctas y un 0 % de detecciones incorrectas 
 ```python
 from ultralytics import YOLO
 
 model = YOLO(r"...\runs\detect\train2\weights\best.pt")
 metrics = model.val(data=r"...pinguino.yaml", classes=[0, 1])
 ```
-<img src="https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/0eb83567e21afc50c22d6b163ac56aa46cbc3be0/post-process/counts.png" width="600">
-
 
 ### 2. **Evaluación** (Dataset completo)
-
-```bash
 -  📸~89000 imágenes de cámaras trampa (8 cámaras)
 -  Modelo Train15 (adultos y pollos)
--  Resultados: Series temporales interanuales por especie y lugar
-```
+-  Resultados: Series temporales interanuales por cámara (cada cámara )
+
 **Custom model**:[Train15](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/bd8fdf9775103b587a5b68880ba5a12c125f693d/custom%20model/train15.zip)
 
 ![Campo de vision de cámaras trampa de pingüino barbijo](https://github.com/mmarquezdiaz/Penguin-Phenology-YOLO11/blob/f848d78099f10a0b0bf65847598bd172120e3fd1/post-process/Captura%20de%20pantalla%202026-05-29%20120004.png)
